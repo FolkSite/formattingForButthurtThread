@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div align="center">
+		<div class="readme">Скрипт форматирует текст для баттхерт-треда.
+			<ul>
+				<li>Можно не ставить "@", достаточно просто перевести строку, программа сама их расставит.</li>
+				<li>Допускается вместо "@" использовать русскую или аглийскую букву "А" любого регистра.</li>
+				<li>Любые буквы из строчных станут прописными.</li>
+			</ul>
+	</div>
+		<form id="formText">
+		<div class="checkbox">
+			<input type="checkbox" id="checkLink" value="linkTrue" checked>Вставить ссылку на программу</input>
+		</div>
+			<br>
+			<textarea id="textButthurt" name="text"></textarea>
+			<br>
+			<input type="button" id="buttonText" value="Форматировать"></input><span id="annotation">или Ctrl+Enter / Ctrl+V</span>
+		</form>
+	</div>
+</body>
+<script src="script.js"></script>
+</html>
